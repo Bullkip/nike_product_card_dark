@@ -135,7 +135,7 @@ main {
 .color-previews__item label:hover, 
 .color-previews__item label:focus,
 .color-previews__item label:active {
-	opacity: .7;
+	opacity: .4;
 }
 
 .card__info {		
@@ -183,6 +183,7 @@ main {
 .card__select {
 	display: inline-block;
     position: relative;
+    margin-bottom: 30px;
 }
 
 .card__select::after{
@@ -221,18 +222,20 @@ main {
 }
 
 .card__btn {
-	margin-top: 30px;
+	display: inline-block;
+	
 	padding: 13px 50px;
-
 	text-decoration: none;
 	color: #e1e1e1;
 	border: .3px solid #e1e1e1;
 	background-color: #202835;
 	opacity: .7;
+	transition: all .4s ease-in;
 }
 
-.card__btn a {
-	text-decoration: none;
-	color: #e1e1e1;
-
+.card__btn:hover,
+.card__btn:focus,
+.card__btn:active {
+	color : #202835 ;
+	background-color:#e1e1e1;
 }
