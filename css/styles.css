@@ -186,23 +186,21 @@ main {
     margin-bottom: 30px;
 }
 
-.card__select::after{
-	 content: '\f078';
-    font-family: FontAwesome;
+/* .card__select::after{
+	 content: url('../img/baseline-arrow_drop_down-24px.svg');
     position: absolute;
-    right: 4%;
-    top: 16%;
+    right: 0%;
+    top: 10%;
     z-index: 5;	
-}
+} */
 
-.card__select::before{
-	 content: '\f078';
-    font-family: FontAwesome;
+/* .card__select::before{
+	 content: url('../img/baseline-arrow_drop_up-24px.svg');
     position: absolute;
-    right: 55%;
-    top: 16%;
+    right: 50%;
+    top: 10%;
     z-index: 5;	
-}
+} */
 
 .card__select select{
 	width: 70px;
